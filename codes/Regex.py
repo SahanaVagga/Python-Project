@@ -4,7 +4,7 @@ import re
 # open file
 keyword = open('Info.txt', 'r', encoding = 'utf-8').readlines()
 texts = open('s.txt', 'r', encoding = 'utf-8').readlines()
-# define function to read file and remove next line symbol
+# define function to read file and remove next line symbol..
 def read_file(file):
     texts = []
     for word in file:
