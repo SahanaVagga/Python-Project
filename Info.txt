@@ -1,0 +1,87 @@
+“In God we trust, all others bring data.”— W. Edwards Deming
+
+PDF Processing with Python
+
+Introduction
+Being a high-level, interpreted language with a relatively easy syntax, Python is perfect even for those who don’t have prior programming experience. Popular Python libraries are well integrated and provide the solution to handle unstructured data sources like Pdf and could be used to make it more sensible and useful.
+PDF is one of the most important and widely used digital media. used to present and exchange documents. PDFs contain useful information, links and buttons, form fields, audio, video, and business logic.
+
+1- Why Python for PDF processing
+As you know PDF processing comes under text analytics.
+Most of the Text Analytics Library or frameworks are designed in Python only . This gives a leverage on text analytics. One more thing you can never process a pdf directly in exising frameworks of Machine Learning or Natural Language Processing. 
+Unless they are proving explicit interface for this, we have to convert pdf to text first.
+
+2- Python Librairies for PDF Processing
+As a Data Scientist , You may not stick to data format.
+PDFs is good source of data, most of the organization release their data in PDFs only.
+As AI is growing, we need more data for prediction and classification; hence, ignoring PDFs as data source for you could be a blunder. Actually PDF processing is little difficult but we can leverage the below API for making it easier.
+In this section, we will discover the Top Python PDF Library:
+PDFMiner
+PDFMiner is a tool for extracting information from PDF documents. Unlike other PDF-related tools, it focuses entirely on getting and analyzing text data. PDFMiner allows one to obtain the exact location of text in a page, as well as other information such as fonts or lines. 
+It includes a PDF converter that can transform PDF files into other text formats (such as HTML). 
+It has an extensible PDF parser that can be used for other purposes than text analysis.
+PyPDF2
+PyPDF2 is a pure-python PDF library capable of splitting, merging together, cropping, and transforming the pages of PDF files. It can also add custom data, viewing options, and passwords to PDF files. It can retrieve text and metadata from PDFs as well as merge entire files together.
+
+pdfrw
+pdfrw is a Python library and utility that reads and writes PDF files:
+Version 0.4 is tested and works on Python 2.6, 2.7, 3.3, 3.4, 3.5, and 3.6
+Operations include subsetting, merging, rotating, modifying metadata, etc.
+The fastest pure Python PDF parser available
+Has been used for years by a printer in pre-press production
+Can be used with rst2pdf to faithfully reproduce vector images
+Can be used either standalone, or in conjunction with reportlab to reuse existing PDFs in new ones
+Permissively licensed
+
+Slate
+Slate is a Python package that simplifies the process of extracting text from PDF files. It depends on the PDFMiner package.
+
+3- Setup Environment
+Step 1: Select Version of Python to Install from Python.org .
+Step 2: Download Python Executable Installer.
+Step 3: Run Executable Installer.
+Step 4: Verify Python Was Installed On Windows.
+Step 5: Verify Pip Was Installed.
+Step 6: Add Python Path to Environment Variables (Optional).
+Step 7: Install Python extension for your IDE.
+Step 8: Now you’ll be able to execute python scripts with your IDE.
+Step 9 : Install pdfminer.six
+pip install pdfminer.six
+Step 10 : Install PyPDF2
+pip install PyPDF2
+
+Done! Now, you can start processing pdf documents with python.
+
+4- Multiple and Large Pdf Documents Text Extraction Solution
+
+PDFs Text Extraction Solution is based on three principal steps:
+1:Merging Multiple and Large PDF Documents into a single Pdf Document.
+2:Splitting Merged PDF Document into a set of documents (page by page splitting )
+3:Handle splitted documents and Extract Text.
+
+Procedure:
+Install Python On your device
+install pip
+
+Install PyPI packages - 
+
+1) pip install pdfminer:
+> 
+2) pip install pyPdf:
+> extracting document information (title, author, …)
+> splitting documents page by page
+> merging documents page by page
+> cropping pages
+> merging multiple pages into a single page
+> encrypting and decrypting PDF files
+
+3) pip install pdf-diff3:
+>  Finds differences between two PDF documents
+
+4) pip install pdf34:
+> pdf34 provides you convert from pdf to text and image
+> Subtitle or Short Description Goes Here
+> ideally one sentence
+> include terms/tags that can be searched
+
+https://youtu.be/hlhnrbDVPxI
